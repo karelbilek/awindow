@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="http://server/awindow_dist/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Basic Application Example</title>
+        <vendor>Sun Microsystems Inc.</vendor>
+        <homepage href="http://appframework.dev.java.net"/>
+        <description>A simple java desktop application based on Swing Application Framework</description>
+        <description kind="short">Basic Application Example</description>
+    </information>
+<update check="background"/>
+<security>
+<all-permissions/>
+</security>
+    <resources>
+<j2se version="1.6+"/>
+<jar href="awindow.jar" main="true"/>
+    <jar href="lib/appframework-1.0.3.jar"/>
+<jar href="lib/swing-worker-1.1.jar"/>
+<jar href="lib/swing-layout-1.0.4.jar"/>
+</resources>
+    <application-desc main-class="awindow.AWindowApp">
+    </application-desc>
+</jnlp>
